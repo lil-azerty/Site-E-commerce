@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Barre de navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    top: 0;
+}
+nav .onglets{
+}
+nav .onglet p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+
+}
+/* Fin de la barre de navigation */
